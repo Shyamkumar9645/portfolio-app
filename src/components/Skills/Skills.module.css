@@ -1,0 +1,48 @@
+.skills {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.skillsList {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skillItem {
+    margin-bottom: 1.5rem;
+}
+
+.skillInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.skillName {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.skillLevel {
+    color: #7f8c8d;
+}
+
+.progressBar {
+    height: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: #3498db;
+    transition: width 0.5s ease-out;
+}
