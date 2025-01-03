@@ -12,7 +12,7 @@ const Home = () => {
             </div>
             <div className={styles.imageContainer}>
                 <img
-                    src="/shyam.jpg"
+                    src="./shyam.jpg"
                     alt="Shyam"
                     width={300}
                     height={300}
