@@ -3,22 +3,22 @@ import styles from './Timeline.module.css';
 
 const timelineData = [
     {
-        date: '2020 - Present',
-        title: 'Senior Web Developer',
-        company: 'Tech Solutions Inc.',
-        description: 'Leading front-end development for enterprise applications.'
+        date: '2021 - Present',
+        title: 'Senior Software Developer',
+        company: 'SS&C Technologies',
+        description: 'Leading Full Stack development for enterprise applications.'
     },
     {
-        date: '2018 - 2020',
-        title: 'Web Developer',
-        company: 'Digital Creations Co.',
-        description: 'Developed and maintained multiple client websites.'
+        date: '2021 - 2021',
+        title: 'Android Developer',
+        company: 'Digital Panda',
+        description: 'Assisted in the development of mobile application.'
     },
     {
-        date: '2016 - 2018',
-        title: 'Junior Developer',
-        company: 'StartUp Innovations',
-        description: 'Assisted in the development of web and mobile applications.'
+        date: '2020 - 2020',
+        title: 'Android Developer',
+        company: 'Chamber of Product',
+        description: 'Assisted in the development of mobile application.'
     }
 ];
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import styles from './Header.module.css';
+import {Link} from 'react-router-dom';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
