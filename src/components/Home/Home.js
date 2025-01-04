@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
+import profileImage from '../../assets/shyam.jpg'
 // Remove this line: import {Image} from "lucide-react";
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
             </div>
             <div className={styles.imageContainer}>
                 <img
-                    src="./shyam.jpg"
+                    src={profileImage}
                     alt="Shyam"
                     width={300}
                     height={300}

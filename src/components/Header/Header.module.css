@@ -21,14 +21,19 @@
     display: none;
 }
 
+/* In Header.module.css */
 .navLink {
-    margin-left: 1rem;
-    color: white;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: inherit;
     text-decoration: none;
 }
 
 .navLink:hover {
-    color: #cbd5e0;
+    color: #your-hover-color;
 }
 
 .mobileMenuButton {
