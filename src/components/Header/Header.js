@@ -29,8 +29,24 @@ const Header = () => {
                     <button onClick={() => scrollToSection('projects')} className={styles.navLink}>Projects</button>
                     <button onClick={() => scrollToSection('contact')} className={styles.navLink}>Contact</button>
                 </nav>
-                {/* Mobile menu remains similar but with onClick handlers */}
+                {/* Mobile Menu Button */}
+                <div className={styles.mobileMenuButton}>
+                    <button onClick={toggleMenu} className={styles.menuButton}>
+                        {isOpen ? <X size={24} /> : <Menu size={24} />}
+                    </button>
+                </div>
             </div>
+
+            {/* Mobile Navigation */}
+            {isOpen && (
+                <div className={styles.mobileNav}>
+                    <button onClick={() => scrollToSection('home')} className={styles.mobileNavLink}>Home</button>
+                    <button onClick={() => scrollToSection('about')} className={styles.mobileNavLink}>About</button>
+                    <button onClick={() => scrollToSection('skills')} className={styles.mobileNavLink}>Skills</button>
+                    <button onClick={() => scrollToSection('projects')} className={styles.mobileNavLink}>Projects</button>
+                    <button onClick={() => scrollToSection('contact')} className={styles.mobileNavLink}>Contact</button>
+                </div>
+            )}
         </header>
     );
 };

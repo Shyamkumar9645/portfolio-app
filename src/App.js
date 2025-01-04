@@ -15,7 +15,7 @@ function App() {
     <Router basename="/portfolio-app">
         <div className="App">
             <Header />
-                    <main>
+            <main>
 
             <Routes>
                 <Route path="/" element={<Landing />} />
@@ -27,8 +27,9 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/footer" element={<Footer />} />
             </Routes>
-</main>
-<Footer />
+
+            </main>
+            <Footer />
         </div>
     </Router>
     );
